@@ -10,6 +10,7 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor" % akkaVersion,
   "com.typesafe.akka" %% "akka-persistence" % akkaVersion,
   "com.typesafe.akka" %% "akka-testkit" % akkaVersion,
+  "joda-time" % "joda-time" % "2.9.9",
   "com.hootsuite" %% "akka-persistence-redis" % "0.8.0"
 )
 
